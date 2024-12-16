@@ -7,7 +7,7 @@ const Header = ({ account, balance, chainName, connect }: any) => {
     <AppBar position="static" sx={{ backgroundColor: "#1976d2" }}>
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-        Läibepaistev heategevus plokiahela tehnoloogiaga
+        Läbiepaistev heategevus plokiahela tehnoloogiaga
         </Typography>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
           {account ? (

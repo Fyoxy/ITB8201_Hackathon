@@ -16,7 +16,7 @@ root.render(
       <MetaMaskProvider
         sdkOptions={{
           dappMetadata: {
-            name: "Läibepaistev heategevus plokiahela tehnoloogiaga",
+            name: "Läbiepaistev heategevus plokiahela tehnoloogiaga",
             url: window.location.href,
           },
           infuraAPIKey: process.env.REACT_APP_INFURA_API_KEY,
